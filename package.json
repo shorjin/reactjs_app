@@ -1,6 +1,7 @@
 {
  
   "name": "form_practice",
+  "homepage": "https://shorjin.github.io/reactjs_app",
  
   "version": "0.1.0",
  
@@ -32,11 +33,9 @@
   },
  
   "scripts": {
- 
-   
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d build",
   "start": "react-scripts  --openssl-legacy-provider  start",
- 
-   
   "build": "react-scripts build",
  
    
